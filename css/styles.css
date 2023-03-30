@@ -712,3 +712,33 @@
     line-height: 34px;
     margin-bottom: 28px;
 }
+
+/* footer */
+
+.footer {
+    background-color: #2D2D2D;
+    padding: 24px 1vw;
+}
+
+.footer__cont {
+    box-sizing: border-box;
+    padding: 20px 0 0;
+    color: #B8B8B8;
+}
+
+.footer__copy {
+    font-family: 'OpenSans',Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer__links {
+    display: inline-block;
+}
+
+.footer__media > .footer__links:not(:last-child) {
+    margin-right: 18px;
+}
