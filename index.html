@@ -10,24 +10,28 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="./js/index.js"></script>
     <title>lending</title>
 </head>
 <body class="page">
   <div class="page__header page__header__grey">
-    <header class="header">
+    <header class="header open">
+      <button class="header__burger-btn" id="burger">
+        <span></span><span></span><span></span>
+      </button>
        <nav class="header__nav">
         <ul class="menu header__menu">
           <li class="menu__item">
             <a class="menu__link" href="#">HOME</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">PORTFOLIO</a>
+            <a class="menu__link" href="#PORTFOLIO">PORTFOLIO</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">ABOUT US</a>
+            <a class="menu__link" href="#ABOUT US">ABOUT US</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">CONTACT</a>
+            <a class="menu__link" href="#CONTACT">CONTACT</a>
           </li>
         </ul>
        </nav>
@@ -95,7 +99,7 @@
         </section>
       </div>
     </section>
-    <section class="section feature">
+    <section class="section feature" id="PORTFOLIO">
       <div class="feature__header">
         <h2 class="feature__heading section-heading">
           feature products
@@ -144,7 +148,7 @@
         <img class="product" src="./img/products/work-8.jpg" alt="картинка">
       </div>
     </section>
-    <section class="section team">
+    <section class="section team" id="ABOUT US">
       <div class="team__header">
         <h2 class="team__heading section-heading" id="about">
           Meet our team
@@ -232,7 +236,7 @@
           </section>
         </section>
       </div>
-     <section class="contacts">
+     <section class="contacts" id="CONTACT">
         <h2 class="contacts-heading section-heading">contact info</h2>
         <address class="contacts__address">
           <p class="contacts__line">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
@@ -246,16 +250,16 @@
     <div class="footer__cont section">
       <p class="footer__copy">&copy; Copyright @Junaed 2016, All rights reserved.</p>
       <div class="footer__media">
-        <a class="footer__links" href="">
+        <a class="footer__links" href="https://twitter.com/" target="_blank">
           <img src="./img/media/1.svg" alt="logo-twitter">
         </a>
-        <a class="footer__links" href="">
+        <a class="footer__links" href="https://ru.linkedin.com" target="_blank">
           <img src="./img/media/2.svg" alt="logo-linkedn">
         </a>
-        <a class="footer__links" href="">
+        <a class="footer__links" href="https://plus.google.com/" target="_blank">
           <img src="./img/media/3.svg" alt="logo-g+">
         </a>
-        <a class="footer__links" href="">
+        <a class="footer__links" href="https://ru-ru.facebook.com" target="_blank">
           <img src="./img/media/4.svg" alt="logo-facebook">
         </a>
       </div>
