@@ -1049,8 +1049,9 @@
             .team__selected-link {
                 padding: 14px;
                 margin: 0;
-            
+
             }
+
             .feedback {
                 padding-right: 28px;
             }
@@ -1105,15 +1106,15 @@
             .contacts {
                 margin-top: 20px;
                 margin-right: 25px
-        }
+            }
 
-        .team__selected-links {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
+            .team__selected-links {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
         }
-    }
 
         @media (max-width: 350px) {
             .header__burger-btn {
@@ -1180,12 +1181,12 @@
             .contacts {
                 margin-top: 20px;
                 margin-right: 25px
-        }
+            }
 
-        .team__selected-links {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
+            .team__selected-links {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
         }
-    }
