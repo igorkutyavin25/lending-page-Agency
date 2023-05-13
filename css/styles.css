@@ -521,6 +521,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .team__selected-info {
     position: relative;
     display: flex;
@@ -1336,14 +1337,14 @@
     .team__selected-link {
         padding: 20px;
         margin: 0;
-}
+    }
 }
 
 @media (max-width: 375px) {
     .team__selected-link {
         padding: 14px;
         margin: 0;
-}
+    }
 }
 
 @media (max-width: 350px) {
